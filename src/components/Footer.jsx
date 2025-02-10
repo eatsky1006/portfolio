@@ -1,7 +1,7 @@
 import { Instagram } from '@mui/icons-material';
 import { WhatsApp } from '@mui/icons-material';
 import { GitHub } from '@mui/icons-material';
-import { Box, Container, IconButton, Typography } from '@mui/material';
+import { Box, Container, IconButton, Link, Typography } from '@mui/material';
 import { Linkedin, } from 'lucide-react';
 
 const Footer = () => {
@@ -59,7 +59,7 @@ const Footer = () => {
             lineHeight: 1.8
           }}
         >
-          Lovingly designed in <span role="img" aria-label="palette">🎨</span> Figma and coded in Visual Studio Code by yours truly.
+           Lovingly designed in 🎨 <Link sx={{ color: 'inherit', }} href={'https://www.figma.com/design/dECDI0bdow7qki3afIoxqs/Developer-Portfolio-Design-(Community)?node-id=0-3&t=7WiYCfbZJfpQTBYt-0'} target='blank'>Figma</Link> By <Link sx={{ color: 'inherit', }} href={'https://www.figma.com/@ibrahimmemon'} target='blank'>Ibrahim Memon</Link> and coded in Visual Studio Code by yours truly.
         <br />  Built with Vite and MUI, deployed with Netlify.
         </Typography>
         <Typography variant="body2" sx={{ mt: 2, opacity: 0.7 }}>

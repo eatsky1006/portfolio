@@ -36,7 +36,8 @@ const Hero = ({ onContactClick }) => {
             variant="h1"
             sx={{
               ...theme.typography.h1,
-              fontSize: { xs: '2.5rem', sm: '3rem', md: '4rem' }
+              fontSize: { xs: '2rem', sm: '3rem', md: '4rem' },
+              lineHeight: { xs: 1.2, md: 1.5 }
             }}
           >
             Muhammad Ahmad!
@@ -76,7 +77,7 @@ const Hero = ({ onContactClick }) => {
            I am a  Software Engineer by day, <strong>Web3 explorer</strong> by night.
             I love building<strong> scalable, User-Friendly</strong> apps that make life easier.
             <br /><br />
-            Whether it’s <strong> Backend magic</strong> or <strong> Web3 wonders</strong>, I’m always up for a challenge.
+            Whether it&apos;s <strong> Backend magic</strong> or <strong> Web3 wonders</strong>, I&apos;m always up for a challenge.
             Also, I occasionally contribute to <strong>open-source</strong> projects.
           </Typography>
 

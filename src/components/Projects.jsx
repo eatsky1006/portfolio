@@ -34,6 +34,7 @@ const Projects = () => {
           paddingTop: 8,
           paddingBottom: 6,
           display: 'flex',
+          
           flexDirection: 'column',
           justifyContent: 'center',
           alignItems: 'center',
@@ -59,13 +60,17 @@ const Projects = () => {
             <Grid
               item
               xs={12}
-              sm={6}
+              sm={12}
+              md={6}
               key={index}
               sx={{
+                 
                 display: 'flex',
                 alignItems: 'center',
                 gap: 3,
-                textAlign: 'left',
+                 maxWidth: '600px',
+                flexDirection: { xs: 'column', sm: 'row' },
+                textAlign: { xs: 'center', sm: 'left' }
               }}
             >
               {/* Logo on the left */}
