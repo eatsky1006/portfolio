@@ -20,6 +20,7 @@ const theme = createTheme({
     fontFamily: 'Roboto, sans-serif',
   },
 });
+const isMobile = window.innerWidth < 768;
 
 const AboutComponent = lazy(() => import('./components/About'));
 
@@ -28,7 +29,17 @@ function App() {
     <ThemeProvider theme={theme}>
       <CssBaseline />
       <Container>
-        <img style={{ position: 'absolute', right: '0', top: '0', zIndex: '0' }} src={BackgroundPattern} alt="BackgroundPattern" />
+        <img style={{
+          position: isMobile ? 'fixed' : 'absolute',
+          right: 0,
+          top: 0,
+          zIndex: 0,
+          height: { xs: '60vh', sm: '100vh' }, // Responsive height
+          backgroundImage: `url(${BackgroundPattern})`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'top right',
+          backgroundRepeat: 'no-repeat',
+        }} src={BackgroundPattern} alt="BackgroundPattern" />
         <Box sx={{ position: 'relative', zIndex: '1', width: '100%', height: '100vh', }}>
           <Navbar />
           <Hero onContactClick={() => { document.getElementById('contact').scrollIntoView({ behavior: 'smooth' }) }} />
