@@ -16,7 +16,8 @@ const Footer = () => {
     <Container maxWidth="lg">
       <Box
         sx={{
-          py: 8,
+          paddingTop: 6,
+          paddingBottom: 2,
           display: 'flex',
           flexDirection: 'column',
           alignItems: 'center',

@@ -31,10 +31,10 @@ const Projects = () => {
     <Container maxWidth="lg" id="projects">
       <Box
         sx={{
-          paddingTop: 8,
-          paddingBottom: 6,
+          paddingTop: { xs: 3, md: 6 },
+          paddingBottom: { xs: 4, md: 6 },
           display: 'flex',
-          
+
           flexDirection: 'column',
           justifyContent: 'center',
           alignItems: 'center',
@@ -42,7 +42,12 @@ const Projects = () => {
         }}
       >
         <Typography variant="h3"
-          align="center" sx={{ fontWeight: 'bold', fontFamily: 'Poppins', letterSpacing: '5px', fontSize: { xs: '2.5rem', md: '3.5rem' } }}>
+          align="center" sx={{
+            fontWeight: 'bold',
+            fontFamily: 'Poppins', letterSpacing: '5px',
+            fontSize: { xs: '2rem', md: '3.5rem' },
+            mb: { xs: 1, md: 3 }
+          }}>
           PROJECTS
         </Typography>
         <Typography gutterBottom align="center" sx={{
@@ -64,11 +69,11 @@ const Projects = () => {
               md={6}
               key={index}
               sx={{
-                 
+
                 display: 'flex',
                 alignItems: 'center',
                 gap: 3,
-                 maxWidth: '600px',
+                maxWidth: '600px',
                 flexDirection: { xs: 'column', sm: 'row' },
                 textAlign: { xs: 'center', sm: 'left' }
               }}

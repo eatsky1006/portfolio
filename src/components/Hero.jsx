@@ -9,6 +9,7 @@ const Hero = ({ onContactClick }) => {
       <Box
         component="section"
         sx={{
+          paddingTop: { xs: 6, md: 8 },
           height: '85vh',
           display: 'flex',
           flexDirection: 'column',

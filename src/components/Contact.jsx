@@ -29,8 +29,8 @@ const Contact = () => {
             WebkitBackgroundClip: 'text',
             WebkitTextFillColor: 'transparent',
             backgroundClip: 'text',
-            textFillColor: 'transparent', fontSize: { xs: '2.5rem', md: '3.5rem' },
-            mb: 1
+            textFillColor: 'transparent', fontSize: { xs: '2rem', md: '3.5rem' },
+            mb: { xs: 0.5, md: 1 }
           }}
         >
           Let&apos;s Connect
@@ -56,12 +56,12 @@ const Contact = () => {
           endIcon={<ArrowRight size={20} sx={{ color: 'inherit' }} />}
           sx={{
             borderRadius: 28,
-            px: 4,
+            px: { xs: 3, md: 4 },
             py: 1.5,
             border: '1px solid #585858',
             backgroundColor: '#000000',
             color: '#ffffff',
-            fontSize: '1rem',
+            fontSize: { xs: '0.875rem', md: '1rem' },
             fontWeight: 500,
             textTransform: 'none',
             transition: 'all 0.3s ease-in-out',

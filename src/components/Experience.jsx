@@ -5,7 +5,7 @@ const technologies = ['React', 'NODE JS', 'Express', 'JavaScript', 'HTML', 'CSS'
 const Experience = () => {
 
   return (
-    <Container maxWidth="lg" id="experience">
+    <Container maxWidth="lg" id="experience" sx={{ px: { xs: 2, md: 0 } }}>
       <Box
         sx={{
           py: { xs: 4, md: 8 },
@@ -20,27 +20,49 @@ const Experience = () => {
           lineHeight: 1.6
         }}
       >
-        <Typography variant="h3" align="center" sx={{ fontWeight: 'bold', fontFamily: 'Poppins', letterSpacing: '0.05em', fontSize: '55px', mb: 3 }}>
+        <Typography variant="h3"
+          align="center" sx={{ 
+            fontWeight: 'bold', 
+            letterSpacing: '5px', 
+            fontFamily: 'Poppins', 
+            fontSize: { xs: '32px', sm: '40px', md: '47.42px' },
+            lineHeight: { xs: 1.3, md: 1.2 }
+          }}>
           EXPERIENCE
         </Typography>
         <Typography gutterBottom align="center" sx={{
           mb: 2, opacity: 0.7,
           background: 'linear-gradient(131deg, rgba(156,131,255,1) 42%, rgba(224,240,16,0.938813025210084) 70%, rgba(255,144,81,1) 75%)',
           WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent',
-          letterSpacing: '0.2em', fontSize: '14px'
-
+          letterSpacing: '0.2em', fontSize: { xs: '12px', md: '14px' }
         }}>
           EXPLORE NOW
         </Typography>
         {/* Codix Sol */}
-        <Box sx={{ maxWidth: '800px', mx: 'auto' }}>
-          <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', mb: 4 }}>
+        <Box sx={{ maxWidth: '800px', mx: 'auto', px: { xs: 1, md: 0 } }}>
+          <Box sx={{ 
+            display: 'flex', 
+            flexDirection: { xs: 'column', md: 'row' },
+            justifyContent: 'space-between', 
+            alignItems: { xs: 'flex-start', md: 'flex-start' }, 
+            mb: 4,
+            gap: 1
+          }}>
             <Box>
-              <Typography variant="h5" sx={{ fontWeight: 'bold', mb: 1, fontSize: { xs: '1rem', md: '1.5rem' } }}>
-                1.   Codix Sol / <spam style={{ opacity: 0.7, fontWeight: 'normal' }}> Web Developer</spam>
+              <Typography variant="h5" sx={{ 
+                fontWeight: 'bold', 
+                mb: 1, 
+                fontSize: { xs: '0.875rem', md: '1.5rem' },
+                lineHeight: 1.2
+              }}>
+                1. Codix Sol / <span style={{ opacity: 0.7, fontWeight: 'normal' }}>Web Developer</span>
               </Typography>
             </Box>
-            <Typography variant="subtitle2" sx={{ opacity: 0.7 }}>
+            <Typography variant="subtitle2" sx={{ 
+              opacity: 0.7,
+              fontSize: { xs: '0.75rem', md: 'inherit' },
+              mb: { xs: 1, md: 0 }
+            }}>
               July 2024 - PRESENT
             </Typography>
           </Box>
@@ -53,15 +75,21 @@ const Experience = () => {
             Mentored junior developers in modern practices through knowledge-sharing initiatives. Led adoption of best practices for maintainable React/Node.js systems. Expertise includes REST APIs, secure authentication flows, and responsive UI design aligned with UX principles. Focused on delivering clean, maintainable code.
           </Typography>
 
-          <Box sx={{ display: 'flex', gap: 1, flexWrap: 'wrap' }}>
+          <Box sx={{ 
+            display: 'flex', 
+            gap: { xs: 0.5, md: 1 }, 
+            flexWrap: 'wrap',
+            justifyContent: { xs: 'center', md: 'flex-start' }
+          }}>
             {technologiesCodixsol.map((tech) => (
               <Chip
                 key={tech}
                 label={tech}
                 sx={{
+                  fontSize: { xs: '0.75rem', md: '0.875rem' },
+                  padding: { xs: '3px', md: '5px' },
                   color: '#E1E1E1',
                   borderRadius: '16px',
-                  padding: '5px',
                   backgroundColor: '#000000',
                   border: '3px solid transparent',
                   backgroundClip: 'padding-box',
@@ -81,18 +109,21 @@ const Experience = () => {
                 }}
               />
             ))}
-
           </Box>
         </Box>
         {/* Gamica Cloud */}
-        <Box sx={{ maxWidth: '800px', mx: 'auto', my: 8 }}>
+        <Box sx={{ maxWidth: '800px', mx: 'auto', my: 8, px: { xs: 1, md: 0 } }}>
           <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', mb: 4 }}>
             <Box>
-              <Typography variant="h5" sx={{ fontWeight: 'bold', mb: 1, fontSize: { xs: '1rem', md: '1.5rem' } }}>
-                2.   Gamica Cloud / <spam style={{ opacity: 0.7, fontWeight: 'normal' }}> Web Developer</spam>
+              <Typography variant="h5" sx={{ fontWeight: 'bold', mb: 1, fontSize: { xs: '0.875rem', md: '1.5rem' }, lineHeight: 1.2 }}>
+                2.   Gamica Cloud / <span style={{ opacity: 0.7, fontWeight: 'normal' }}> Web Developer</span>
               </Typography>
             </Box>
-            <Typography variant="subtitle2" sx={{ opacity: 0.7 }}>
+            <Typography variant="subtitle2" sx={{ 
+              opacity: 0.7,
+              fontSize: { xs: '0.75rem', md: 'inherit' },
+              mb: { xs: 1, md: 0 }
+            }}>
               February 2024 - July 2024
             </Typography>
           </Box>
@@ -113,9 +144,10 @@ const Experience = () => {
                 key={tech}
                 label={tech}
                 sx={{
+                  fontSize: { xs: '0.75rem', md: '0.875rem' },
+                  padding: { xs: '3px', md: '5px' },
                   color: '#E1E1E1',
                   borderRadius: '16px',
-                  padding: '5px',
                   backgroundColor: '#000000',
                   border: '3px solid transparent',
                   backgroundClip: 'padding-box',
