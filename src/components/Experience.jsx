@@ -95,7 +95,7 @@ const Experience = () => {
   return (
     <>
       <Helmet>
-        <title>Professional Experience | Muhammad Ahmad - Full-Stack & Web3 Developer</title>
+        <title>Muhammad Ahmad - Full-Stack & Web3 Developer</title>
         <meta name="description" content="Muhammad Ahmad's professional journey as a Full-Stack and Web3 Developer, with experience at NetixSol, Codix Sol and Gamica Cloud working on React, Node.js, and blockchain technologies." />
       </Helmet>
       <Container maxWidth="lg" id="experience" sx={{ px: { xs: 2, md: 0 } }}>

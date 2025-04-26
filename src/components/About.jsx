@@ -8,7 +8,7 @@ const About = () => {
   return (
     <>
       <Helmet>
-        <title>About Muhammad Ahmad | Full-Stack & Web3 Developer</title>
+        <title>Muhammad Ahmad | Full-Stack & Web3 Developer</title>
         <meta name="description" content="Learn about Muhammad Ahmad, a versatile full-stack developer with expertise in both web development and blockchain technologies including React, Node.js, and Web3 solutions." />
       </Helmet>
       <Container id="about">

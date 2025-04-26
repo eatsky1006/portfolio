@@ -32,7 +32,7 @@ const Projects = () => {
   return (
     <>
       <Helmet>
-        <title>Projects | Muhammad Ahmad - Full-Stack & Web3 Developer</title>
+        <title>Muhammad Ahmad - Full-Stack & Web3 Developer</title>
         <meta name="description" content="Explore Muhammad Ahmad's blockchain and web development projects including Popit Game, PerkSwap, and Cro Create - showcasing expertise in DeFi, smart contracts, and Web3 technologies." />
       </Helmet>
       <Container maxWidth="lg" id="projects">
