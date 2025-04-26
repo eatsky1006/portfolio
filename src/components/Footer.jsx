@@ -2,13 +2,24 @@ import { Instagram } from '@mui/icons-material';
 import { WhatsApp } from '@mui/icons-material';
 import { GitHub } from '@mui/icons-material';
 import { Box, Container, IconButton, Typography } from '@mui/material';
-import { Linkedin, } from 'lucide-react';
+import { Linkedin } from 'lucide-react';
+import { useState } from 'react';
 
 const Footer = () => {
+  const [hoveredIcon, setHoveredIcon] = useState(null);
+  
   const socialLinks = [
-    { icon: GitHub, href: 'https://github.com/AhmadGill7', label: 'GitHub' },
+    {
+      label: 'LinkedIn',
+      href: 'https://www.linkedin.com/in/ahmadgill',
+      icon: Linkedin,
+    },
+    {
+      label: 'GitHub',
+      href: 'https://github.com/ahmadgill7',
+      icon: GitHub,
+    },
     { icon: Instagram, href: 'https://www.instagram.com/handsom.ware', label: 'Instagram' },
-    { icon: Linkedin, href: 'https://www.linkedin.com/in/ahmadgill', label: 'LinkedIn' },
     { icon: WhatsApp, href: 'https://wa.me/923089900772', label: 'Whatsapp' },
   ];
 
@@ -31,37 +42,29 @@ const Footer = () => {
             mb: 3
           }}
         >
-          {socialLinks.map((social) => (
+          {socialLinks.map((social, index) => (
             <IconButton
               key={social.label}
               href={social.href}
               target="_blank"
               rel="noopener noreferrer"
+              aria-label={`Connect with Muhammad Ahmad on ${social.label}`}
+              onMouseEnter={() => setHoveredIcon(index)}
+              onMouseLeave={() => setHoveredIcon(null)}
               sx={{
                 color: 'white',
-                transition: 'transform 0.2s ease-in-out',
+                transition: 'all 0.3s ease-in-out',
+                transform: hoveredIcon === index ? 'translateY(-4px)' : 'translateY(0)',
                 '&:hover': {
-                  transform: 'translateY(-2px)',
                   color: 'white'
                 }
               }}
-              aria-label={social.label}
             >
               <social.icon size={20} />
             </IconButton>
           ))}
         </Box>
 
-        <Typography
-          variant="body2"
-          sx={{
-            opacity: 0.7,
-            maxWidth: '600px',
-            lineHeight: 1.8
-          }}
-        >
-          Built with Vite and MUI, deployed with Netlify by yours truly.
-        </Typography>
         <Typography variant="body2" sx={{ mt: 2, opacity: 0.7 }}>
           &copy; {new Date().getFullYear()} Ahmad Gill
         </Typography>
