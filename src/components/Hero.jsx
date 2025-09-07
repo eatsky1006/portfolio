@@ -3,6 +3,7 @@ import { Helmet } from 'react-helmet-async';
 import myProfile from "../assets/Me.png";
 import { theme } from '../theme';
 import { useState } from 'react';
+import { scrollToElement } from '../utils/scroll';
 
 // eslint-disable-next-line react/prop-types
 const Hero = () => {
@@ -130,6 +131,7 @@ const Hero = () => {
               <Button
                 variant="contained"
                 size="large"
+                onClick={() => scrollToElement('contact')}
                 sx={{
                   borderRadius: 28,
                   px: { xs: 4, md: 6 },
