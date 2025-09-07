@@ -31,7 +31,7 @@ const Navbar = () => {
             if (isScrolled !== scrolled) {
                 setScrolled(isScrolled);
             }
-            
+
             // Update active section based on scroll position
             const sections = ['about', 'experience', 'projects', 'contact'];
             for (const section of sections) {
@@ -45,7 +45,7 @@ const Navbar = () => {
                 }
             }
         };
-        
+
         window.addEventListener('scroll', handleScroll);
         return () => window.removeEventListener('scroll', handleScroll);
     }, [scrolled]);
@@ -64,30 +64,11 @@ const Navbar = () => {
     // Enhanced TransparentNavButton with active state
     const EnhancedTransparentNavButton = ({ target, label, onClick }) => {
         const isActive = activeSection === target;
-        
+
         return (
             <TransparentNavButton
                 Title={label}
                 onClick={onClick}
-                sx={{
-                    position: 'relative',
-                    '&::after': {
-                        content: '""',
-                        position: 'absolute',
-                        bottom: '-5px',
-                        left: '50%',
-                        width: isActive ? '30px' : '0px',
-                        height: '2px',
-                        backgroundColor: 'white',
-                        transform: 'translateX(-50%)',
-                        transition: 'width 0.3s ease',
-                        opacity: 0.7,
-                        background: 'linear-gradient(131deg, rgba(156,131,255,1) 42%, rgba(224,240,16,0.94) 70%, rgba(255,144,81,1) 75%)',
-                    },
-                    '&:hover::after': {
-                        width: '30px',
-                    }
-                }}
             />
         );
     };
@@ -95,8 +76,8 @@ const Navbar = () => {
     return (
         <StyledAppBar position="sticky" scrolled={scrolled}>
             <Toolbar sx={{ justifyContent: 'space-between', flexWrap: 'wrap', gap: 2 }}>
-                <Box sx={{ 
-                    display: 'flex', 
+                <Box sx={{
+                    display: 'flex',
                     alignItems: 'center',
                     transition: 'transform 0.3s ease',
                     '&:hover': {
@@ -106,8 +87,8 @@ const Navbar = () => {
                     <img
                         src="/LogoWithName.png"
                         alt="Portfolio logo"
-                        style={{ 
-                            display: { xs: 'none', md: 'block' }, 
+                        style={{
+                            display: { xs: 'none', md: 'block' },
                             height: '80px',
                             transition: 'filter 0.3s ease',
                             filter: scrolled ? 'drop-shadow(0 0 5px rgba(156,131,255,0.5))' : 'none'
@@ -192,8 +173,8 @@ const Navbar = () => {
                                         handleDrawerToggle();
                                         scrollToElement(item.target, 100);
                                     }}
-                                    sx={{ 
-                                        width: '100%', 
+                                    sx={{
+                                        width: '100%',
                                         justifyContent: 'center',
                                         transition: 'transform 0.3s ease, box-shadow 0.3s ease',
                                         '&:hover': {
@@ -209,27 +190,6 @@ const Navbar = () => {
                                     onClick={() => {
                                         handleDrawerToggle();
                                         scrollToElement(item.target, 100);
-                                    }}
-                                    sx={{ 
-                                        width: '100%', 
-                                        justifyContent: 'center',
-                                        position: 'relative',
-                                        '&::after': {
-                                            content: '""',
-                                            position: 'absolute',
-                                            bottom: '-2px',
-                                            left: '50%',
-                                            width: activeSection === item.target ? '50px' : '0px',
-                                            height: '2px',
-                                            backgroundColor: 'white',
-                                            transform: 'translateX(-50%)',
-                                            transition: 'width 0.3s ease',
-                                            opacity: 0.7,
-                                            background: 'linear-gradient(131deg, rgba(156,131,255,1) 42%, rgba(224,240,16,0.94) 70%, rgba(255,144,81,1) 75%)',
-                                        },
-                                        '&:hover::after': {
-                                            width: '50px',
-                                        }
                                     }}
                                 />
                             )
