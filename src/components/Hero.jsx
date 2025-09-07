@@ -8,7 +8,7 @@ import { scrollToElement } from '../utils/scroll';
 // eslint-disable-next-line react/prop-types
 const Hero = () => {
   const [isHovered, setIsHovered] = useState(false);
-  
+
   return (
     <>
       <Helmet>
@@ -63,7 +63,7 @@ const Hero = () => {
               </Typography>
 
               <Typography
-                variant="subtitle1" 
+                variant="subtitle1"
                 sx={{
                   fontSize: { xs: '1rem', sm: '1.1rem', md: '1.2rem' },
                   mb: 1.5,  // Adjusted from 1 to 1.5
@@ -102,7 +102,7 @@ const Hero = () => {
                 >
                   Full-Stack & Web3 Developer
                 </span>
-                <span style={{ 
+                <span style={{
                   transition: 'transform 0.2s ease',
                   display: 'inline-block',
                   marginLeft: '3px',
@@ -133,6 +133,7 @@ const Hero = () => {
                 size="large"
                 onClick={() => scrollToElement('contact')}
                 sx={{
+                  overflow: 'hidden',
                   borderRadius: 28,
                   px: { xs: 4, md: 6 },
                   py: { xs: 1, md: 1.5 },
@@ -140,7 +141,22 @@ const Hero = () => {
                   backgroundColor: '#000000',
                   color: '#ffffff',
                   '&:hover': {
-                    backgroundColor: '#333333',
+                    transform: 'translateY(-2px)',
+                    boxShadow: '0 6px 20px rgba(255, 255, 255, 0.15)',
+                  },
+                  '&::after': {
+                    content: '""',
+                    position: 'absolute',
+                    top: 0,
+                    left: 0,
+                    width: '100%',
+                    height: '100%',
+                    background: 'linear-gradient(120deg, transparent, rgba(255,255,255,0.2), transparent)',
+                    transform: 'translateX(-100%)',
+                  },
+                  '&:hover::after': {
+                    transform: 'translateX(100%)',
+                    transition: 'transform 0.6s ease-in-out',
                   },
                   fontSize: { xs: '0.875rem', md: '1rem' },
                 }}
