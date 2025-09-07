@@ -57,7 +57,7 @@ const Projects = () => {
           <Typography variant="h3"
             align="center" sx={{
               fontWeight: 'bold',
-              fontFamily: 'Poppins', letterSpacing: '5px',
+              fontFamily: 'Playfair Display', letterSpacing: '3px',
               fontSize: { xs: '2rem', md: '3.5rem' },
               mb: { xs: 1, md: 3 }
             }}>

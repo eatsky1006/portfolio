@@ -33,6 +33,8 @@ const Contact = () => {
             gutterBottom
             sx={{
               fontWeight: 'bold',
+              fontFamily: 'Playfair Display',
+              letterSpacing: '2px',
               background: 'linear-gradient(131deg, rgba(156,131,255,1) 42%, rgba(224,240,16,0.938813025210084) 70%, rgba(255,144,81,1) 75%)',
               WebkitBackgroundClip: 'text',
               WebkitTextFillColor: 'transparent',

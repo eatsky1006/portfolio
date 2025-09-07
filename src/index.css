@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&family=Source+Sans+Pro:wght@300;400;600;700&family=Montserrat:wght@300;400;500;600;700&family=Lora:wght@400;500;600;700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -8,12 +8,16 @@
   --scroll-progress: 0;
 }
 
+body {
+  font-family: "Inter", system-ui, sans-serif;
+}
+
 html {
   scroll-behavior: auto; /* Disable native smooth scrolling to let Lenis handle it */
 }
 
 * {
-  font-family: "Roboto";
+  font-family: "Inter", system-ui, sans-serif;
   color: #ffffff;
   padding: 0;
   margin: 0;
@@ -65,4 +69,45 @@ html.lenis {
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
   }
+}
+
+/* Font Switcher Classes */
+.font-inter * {
+  font-family: "Inter", system-ui, sans-serif !important;
+}
+
+.font-playfair * {
+  font-family: "Playfair Display", Georgia, serif !important;
+}
+
+.font-source-sans * {
+  font-family: "Source Sans Pro", system-ui, sans-serif !important;
+}
+
+.font-montserrat * {
+  font-family: "Montserrat", system-ui, sans-serif !important;
+}
+
+.font-lora * {
+  font-family: "Lora", Georgia, serif !important;
+}
+
+/* Specific styling for different fonts */
+.font-playfair h1, .font-playfair h2, .font-playfair h3, .font-playfair h4, .font-playfair h5, .font-playfair h6 {
+  font-weight: 600 !important;
+  letter-spacing: -0.025em !important;
+}
+
+.font-inter h1, .font-inter h2, .font-inter h3, .font-inter h4, .font-inter h5, .font-inter h6 {
+  font-weight: 600 !important;
+  letter-spacing: -0.02em !important;
+}
+
+.font-montserrat h1, .font-montserrat h2, .font-montserrat h3, .font-montserrat h4, .font-montserrat h5, .font-montserrat h6 {
+  font-weight: 600 !important;
+  letter-spacing: -0.01em !important;
+}
+
+.font-lora h1, .font-lora h2, .font-lora h3, .font-lora h4, .font-lora h5, .font-lora h6 {
+  font-weight: 500 !important;
 }

@@ -21,7 +21,7 @@ const theme = createTheme({
     },
   },
   typography: {
-    fontFamily: 'Roboto, sans-serif',
+    fontFamily: 'Inter, system-ui, sans-serif',
   },
 });
 const isMobile = window.innerWidth < 768;
@@ -31,7 +31,7 @@ const AboutComponent = lazy(() => import('./components/About'));
 function App() {
   // Initialize Lenis smooth scrolling
   useLenis();
-  
+
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />

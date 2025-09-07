@@ -116,8 +116,8 @@ const Experience = () => {
           <Typography variant="h3"
             align="center" sx={{
               fontWeight: 'bold',
-              letterSpacing: '5px',
-              fontFamily: 'Poppins',
+              letterSpacing: '3px',
+              fontFamily: 'Playfair Display',
               fontSize: { xs: '32px', sm: '40px', md: '47.42px' },
               lineHeight: { xs: 1.3, md: 1.2 }
             }}>

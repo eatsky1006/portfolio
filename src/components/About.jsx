@@ -25,8 +25,8 @@ const About = () => {
           <Typography variant="h3"
             align="center" sx={{ 
               fontWeight: 'bold', 
-              letterSpacing: '5px', 
-              fontFamily: 'Poppins', 
+              letterSpacing: '3px', 
+              fontFamily: 'Playfair Display', 
               fontSize: { xs: '32px', sm: '40px', md: '47.42px' },
               lineHeight: { xs: 1.3, md: 1.2 }
             }}>
@@ -71,7 +71,7 @@ const About = () => {
               transition: 'opacity 0.3s ease',
               opacity: isTextHovered ? 1 : 0.9
             }}>
-              I am <strong>Muhammad Ahmad</strong>, a passionate <strong>Full-stack web developer</strong> with expertise in <strong>React.js, Node.js, Next.js, and various databases</strong> like MySQL, PostgreSQL, and MongoDB. With over a year of industry experience, I have worked on <strong>large-scale Web2 and Web3 projects</strong>, integrating <strong>smart contracts into websites</strong> and leveraging technologies like <strong>Redis, Socket.IO, and viem</strong>.
+              I am <strong>Muhammad Ahmad</strong>, a <strong>Full-stack and Web3 developer</strong> specializing in <strong>React.js, Node.js, and blockchain technologies</strong>. With extensive experience in <strong>Solidity smart contracts and DeFi applications</strong>, I build seamless web experiences that bridge traditional and decentralized technologies.
             </Typography>
             <Typography variant="body1" sx={{ 
               mb: 3,
@@ -80,7 +80,7 @@ const About = () => {
               transition: 'opacity 0.3s ease',
               opacity: isTextHovered ? 1 : 0.9
             }}>
-              My journey in software development involves crafting seamless user experiences, optimizing backend logic, and ensuring smooth real-time interactions. I specialize in <strong>DeFi applications, non-custodial wallets, and decentralized trading platforms</strong>, always eager to explore new technologies. Whether it&apos;s enhancing frontend performance or building scalable backend architectures, I thrive on solving complex problems with innovative solutions.
+              I focus on creating <strong>innovative DeFi solutions, trading platforms, and Web3 integrations</strong> using modern frameworks and blockchain protocols. Always exploring new technologies to solve complex problems with clean, efficient code.
             </Typography>
           </Box>
         </Box>
