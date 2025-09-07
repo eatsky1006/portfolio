@@ -5,11 +5,64 @@
 
 :root {
   background-color: #000000;
+  --scroll-progress: 0;
 }
+
+html {
+  scroll-behavior: auto; /* Disable native smooth scrolling to let Lenis handle it */
+}
+
 * {
   font-family: "Roboto";
   color: #ffffff;
   padding: 0;
   margin: 0;
-  box-sizing: border-box; /* Add this line */
+  box-sizing: border-box;
+}
+
+/* Lenis specific styles for ultra-smooth scrolling */
+html.lenis {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-scrolling iframe {
+  pointer-events: none;
+}
+
+/* Performance optimizations for smooth scrolling */
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Optimize transforms for scroll-triggered animations */
+.scroll-animate {
+  will-change: transform, opacity;
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+/* Reduce motion for users who prefer it */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
 }

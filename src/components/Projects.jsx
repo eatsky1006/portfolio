@@ -1,6 +1,7 @@
 import { Box, Typography, Container, Grid, Link, } from '@mui/material';
 import PopitLogo from "../assets/PopitLogoImage.png";
-import PerkSwapLogo from "../assets/PerkSwapLogo.svg";
+import KaspaFinanceLogo from "../assets/KF_05.png";
+// import PerkSwapLogo from "../assets/PerkSwapLogo.svg";
 import CroCreateLogo from "../assets/CroCreate Full Rez.png";
 import { useMemo, useState } from 'react';
 import { Helmet } from 'react-helmet-async';
@@ -10,17 +11,23 @@ const Projects = () => {
 
   const projects = useMemo(() => [
     {
+      title: 'Kaspa Finance',
+      description: 'Designed and developed Kaspa Finance, an end-to-end DeFi super-app on Kaspa’s EVM L2, enabling users to swap, stake, farm, and earn rewards through a unified platform',
+      logo: KaspaFinanceLogo,
+      url: 'https://app.kaspafinance.io'
+    },
+    {
       title: 'Popit Game',
       description: 'innovative blockchain-integrated game where users bet cryptocurrency to participate in real-time game-play.',
       logo: PopitLogo,
-      url: 'https://dev.popit-game.top'
+      url: 'https://devpopitv2.netlify.app/'
     },
-    {
-      title: 'PerkSwap',
-      description: 'Cryptocurrency exchange platform offering streamlined buying/selling/swapping, mirroring major exchanges\' scale without traditional trading features',
-      logo: PerkSwapLogo,
-      url: 'https://perkswap.finance'
-    },
+    // {
+    //   title: 'PerkSwap',
+    //   description: 'Cryptocurrency exchange platform offering streamlined buying/selling/swapping, mirroring major exchanges\' scale without traditional trading features',
+    //   logo: PerkSwapLogo,
+    //   url: 'https://perkswap.finance'
+    // },
     {
       title: 'Cro Create',
       description: 'Web3 platform on Cronos Chain offering tools for token creation, liquidity management, and airdrops, empowering decentralized community growth',
@@ -89,9 +96,9 @@ const Projects = () => {
                   rel="noopener noreferrer"
                   underline="none"
                   aria-label={`Visit ${project.title} website`}
-                  sx={{ 
-                    color: '#fff', 
-                    fontWeight: 'bold', 
+                  sx={{
+                    color: '#fff',
+                    fontWeight: 'bold',
                     fontSize: '1.1rem',
                     transition: 'transform 0.3s ease',
                     display: 'block'
@@ -114,8 +121,8 @@ const Projects = () => {
                       display: 'flex',
                       alignItems: 'center',
                       justifyContent: 'center',
-                      boxShadow: hoveredProject === index 
-                        ? '0px 6px 25px rgba(255, 255, 255, 0.67)' 
+                      boxShadow: hoveredProject === index
+                        ? '0px 6px 25px rgba(255, 255, 255, 0.67)'
                         : '0px 4px 20px rgba(255, 255, 255, 0.57)',
                       transform: hoveredProject === index ? 'translateY(-5px)' : 'translateY(0)',
                       transition: 'transform 0.3s ease, box-shadow 0.3s ease',
@@ -135,8 +142,8 @@ const Projects = () => {
                       color: '#fff', fontWeight: 'bold',
                       fontSize: '1.1rem',
                       transition: 'background-position 0.3s ease',
-                      background: hoveredProject === index 
-                        ? 'linear-gradient(131deg, rgba(156,131,255,1) 42%, rgba(224,240,16,0.938813025210084) 70%, rgba(255,144,81,1) 75%)' 
+                      background: hoveredProject === index
+                        ? 'linear-gradient(131deg, rgba(156,131,255,1) 42%, rgba(224,240,16,0.938813025210084) 70%, rgba(255,144,81,1) 75%)'
                         : 'linear-gradient(131deg, rgba(156,131,255,1) 42%, rgba(224,240,16,0.938813025210084) 70%, rgba(255,144,81,1) 75%) right',
                       WebkitBackgroundClip: 'text',
                       WebkitTextFillColor: 'transparent',

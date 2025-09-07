@@ -8,6 +8,10 @@ import Experience from './components/Experience';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import { useLenis } from './hooks/useLenis';
+import { scrollToElement } from './utils/scroll';
+import ScrollProgressBar from './components/ScrollProgressBar';
+import ScrollToTopButton from './components/ScrollToTopButton';
 
 const theme = createTheme({
   palette: {
@@ -25,9 +29,13 @@ const isMobile = window.innerWidth < 768;
 const AboutComponent = lazy(() => import('./components/About'));
 
 function App() {
+  // Initialize Lenis smooth scrolling
+  useLenis();
+  
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
+      <ScrollProgressBar />
       <Container>
         <img style={{
           position: isMobile ? 'fixed' : 'absolute',
@@ -42,7 +50,7 @@ function App() {
         }} src={BackgroundPattern} alt="BackgroundPattern" />
         <Box sx={{ position: 'relative', zIndex: '1', width: '100%', height: '100vh', }}>
           <Navbar />
-          <Hero onContactClick={() => { document.getElementById('contact').scrollIntoView({ behavior: 'smooth' }) }} />
+          <Hero onContactClick={() => scrollToElement('contact', 100)} />
           <AboutComponent />
           <Experience />
           <Projects />
@@ -50,6 +58,7 @@ function App() {
           <Footer />
         </Box>
       </Container>
+      <ScrollToTopButton />
     </ThemeProvider>
   )
 }

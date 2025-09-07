@@ -6,6 +6,7 @@ import CodeIcon from '@mui/icons-material/Code';
 import { WhiteButton } from './buttons/WhiteNavButton';
 import { TransparentNavButton } from './buttons/TransparentNavButton';
 import { useState, useEffect } from 'react';
+import { scrollToElement } from '../utils/scroll';
 
 // Enhanced AppBar with scroll behavior
 const StyledAppBar = styled(AppBar)(({ theme, scrolled }) => ({
@@ -126,12 +127,12 @@ const Navbar = () => {
                             target={item.target}
                             label={item.label}
                             onClick={() => {
-                                document.getElementById(item.target)?.scrollIntoView({ behavior: 'smooth' });
+                                scrollToElement(item.target, 100);
                             }}
                         />
                     ))}
                     <WhiteButton
-                        onClick={() => document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })}
+                        onClick={() => scrollToElement('contact', 100)}
                         Title="Contact"
                         sx={{
                             transition: 'transform 0.3s ease, box-shadow 0.3s ease',
@@ -189,7 +190,7 @@ const Navbar = () => {
                                     Title={item.label}
                                     onClick={() => {
                                         handleDrawerToggle();
-                                        document.getElementById(item.target)?.scrollIntoView({ behavior: 'smooth' });
+                                        scrollToElement(item.target, 100);
                                     }}
                                     sx={{ 
                                         width: '100%', 
@@ -207,7 +208,7 @@ const Navbar = () => {
                                     Title={item.label}
                                     onClick={() => {
                                         handleDrawerToggle();
-                                        document.getElementById(item.target)?.scrollIntoView({ behavior: 'smooth' });
+                                        scrollToElement(item.target, 100);
                                     }}
                                     sx={{ 
                                         width: '100%', 
