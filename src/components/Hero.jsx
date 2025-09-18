@@ -12,11 +12,11 @@ const Hero = () => {
   return (
     <>
       <Helmet>
-        <title>Muhammad Ahmad | Associate Software Engineer | Full-Stack & Web3 Developer</title>
-        <meta name="description" content="Muhammad Ahmad is an Associate Software Engineer specializing in full-stack development and Web3 technologies including smart contracts, DeFi protocols, React.js, Node.js, and Solidity." />
-        <meta name="keywords" content="Muhammad Ahmad, Associate Software Engineer, Web3 developer, Blockchain engineer, Smart contracts, DeFi, React developer, Full-stack developer, Solidity, Ethereum, dApps" />
-        <meta name="author" content="Muhammad Ahmad" />
-        <meta property="og:title" content="Muhammad Ahmad | Associate Software Engineer | Web3 Developer" />
+        <title>Mikola Gubar | Associate Software Engineer | Full-Stack & Blockchain Developer</title>
+        <meta name="description" content="Mikola Gubar is an Associate Software Engineer specializing in full-stack development and Web3 technologies including smart contracts, DeFi protocols, React.js, Node.js, and Solidity." />
+        <meta name="keywords" content="Mikola Gubar, Associate Software Engineer, Web3 developer, Blockchain engineer, Smart contracts, DeFi, React developer, Full-stack developer, Solidity, Ethereum, dApps" />
+        <meta name="author" content="Mikola Gubar" />
+        <meta property="og:title" content="Mikola Gubar | Associate Software Engineer | Web3 Developer" />
         <meta property="og:description" content="Associate Software Engineer specializing in full-stack development and Web3 technologies" />
       </Helmet>
       <Container maxWidth="lg" id="home">
@@ -40,7 +40,7 @@ const Hero = () => {
                 component="img"
                 src={myProfile}
                 loading="lazy"
-                alt="Muhammad Ahmad - Associate Software Engineer and Web3 Developer"
+                alt="Mikola Gubar - Associate Software Engineer and Web3 Developer"
                 sx={{
                   width: { xs: 120, md: 150 },
                   height: { xs: 120, md: 150 },
@@ -59,7 +59,7 @@ const Hero = () => {
                   mb: 0  // Added margin-bottom 0
                 }}
               >
-                Muhammad Ahmad
+                Mikola Gubar
               </Typography>
 
               <Typography
@@ -100,7 +100,7 @@ const Hero = () => {
                   onMouseEnter={() => setIsHovered(true)}
                   onMouseLeave={() => setIsHovered(false)}
                 >
-                  Full-Stack & Web3 Developer
+                  Full-Stack & Blockchain Developer
                 </span>
                 <span style={{
                   transition: 'transform 0.2s ease',
@@ -121,11 +121,13 @@ const Hero = () => {
                   px: { xs: 2, md: 0 }
                 }}
               >
-                <strong>Hey there!</strong> I&apos;m <strong>Muhammad Ahmad</strong>, a versatile full-stack developer with expertise in both <strong>traditional web development</strong> and <strong>blockchain technologies</strong>.
+                Hey there!  I’m Mikola, a Senior Full Stack & Blockchain Developer,  with over 7 years of experience building high-performance web applications and decentralized solutions.
                 <br /><br />
-                I specialize in creating <strong>efficient, scalable applications</strong> using modern frameworks like <strong>React</strong> and <strong>Node.js</strong>, while also implementing <strong>Web3 solutions</strong> including smart contracts and dApps. My dual focus allows me to build <strong>user-friendly interfaces</strong> that seamlessly integrate with <strong>blockchain functionality</strong>.
+                I specialize in bridging Web2 and Web3, crafting everything from scalable backend systems and interactive frontends to secure, gas-optimized smart contracts. My expertise spans React, Next.js, Node.js, Solidity, Web3.js, Ethers.js, PostgreSQL, AWS, and Docker.
                 <br /><br />
-                From <strong>responsive web applications</strong> to <strong>decentralized solutions</strong>, I enjoy tackling technical challenges and contributing to <strong>open-source</strong> projects that make an impact.
+                Passionate about blockchain innovation, I’ve contributed to DeFi protocols, NFT platforms, and DAO infrastructures, helping startups and enterprises turn bold ideas into reliable, user-centric products. Beyond coding, I enjoy mentoring engineers, leading development teams, and solving complex architectural challenges.
+                <br /><br />
+                I thrive at the intersection of technology and innovation, delivering solutions that empower users and push the boundaries of what’s possible in Web3.
               </Typography>
 
               <Button

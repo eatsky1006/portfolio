@@ -2,9 +2,9 @@
 import { Box, Typography, Container, Chip } from '@mui/material';
 import { Helmet } from 'react-helmet-async';
 
-const technologiesNetixSol = ['React', 'NEXT JS', 'NODE JS', 'Express', 'Web3', 'Blockchain', 'Smart Contracts', 'Solidity', 'Rust', 'Remix', 'DeFi', 'Viem','Wagmi / Reown', 'Web3.js', 'JavaScript', 'Tailwind', 'MUI', 'MongoDB', 'PostgreSQL'];
-const technologiesCodixsol = ['React', 'Vite', "NEXT JS", 'NODE JS', 'Express', 'Web 2', 'Web 3', 'Wagmi/Reown', 'Viem', 'JavaScript', 'HTML', 'CSS', 'Tailwind', 'MUI', 'Socket.io', 'MySql', 'PostgreSql', 'MongoDb', 'Cloud Panel'];
-const technologiesGamicaCloud = ['React', 'NODE JS', 'Express', 'JavaScript', 'HTML', 'CSS', 'Tailwind', 'MongoDb'];
+const technologiesNetixSol = ['React', 'NEXT JS', 'NODE JS', 'Express', 'Web3', 'Blockchain', 'Smart Contracts', 'Solidity', 'Rust', 'Remix', 'DeFi', 'Viem','Wagmi / Reown', 'Web3.js', 'JavaScript', 'Tailwind', 'MUI', 'MongoDB', 'PostgreSQL', 'Rust', 'EVM', 'Ethers.js', 'Solana', 'Remix', 'Truﬄe', 'Hardhat', 'Layer 2', 'NFT', 'DApps', 'Bitcoin', 'Tezos', 'Stellar', 'Polkadot'];
+const technologiesCodixsol = ['React', 'Vite', "NEXT JS", 'NODE JS', 'Express', 'Web 2', 'Web 3', 'Wagmi/Reown', 'Viem', 'JavaScript', 'HTML', 'CSS', 'Tailwind', 'MUI', 'Socket.io', 'MySql', 'PostgreSql', 'MongoDb', 'Cloud Panel', 'Solidity', 'Rust', 'EVM', 'Ethers.js', 'Solana', 'Remix', 'Truﬄe', 'Hardhat', 'Layer 2', 'NFT'];
+const technologiesGamicaCloud = ['React', 'Vite', "NEXT JS", 'NODE JS', 'Express', 'Web 2', 'Web 3', 'Wagmi/Reown', 'Viem', 'JavaScript', 'HTML', 'CSS', 'Tailwind', 'MUI', 'Socket.io', 'MySql', 'PostgreSql', 'MongoDb', 'Cloud Panel'];
 
 
 // Create a reusable Chip style function
@@ -95,8 +95,8 @@ const Experience = () => {
   return (
     <>
       <Helmet>
-        <title>Muhammad Ahmad - Full-Stack & Web3 Developer</title>
-        <meta name="description" content="Muhammad Ahmad's professional journey as a Full-Stack and Web3 Developer, with experience at NetixSol, Codix Sol and Gamica Cloud working on React, Node.js, and blockchain technologies." />
+        <title>Mikola Gubar - Full-Stack & Blockchain Developer</title>
+        <meta name="description" content="Mikola Gubar's professional journey as a Full-Stack and Web3 Developer, with experience at NetixSol, Codix Sol and Gamica Cloud working on React, Node.js, and blockchain technologies." />
       </Helmet>
       <Container maxWidth="lg" id="experience" sx={{ px: { xs: 2, md: 0 } }}>
         <Box
@@ -135,11 +135,11 @@ const Experience = () => {
           {/* NetixSol */}
           <ExperienceEntry
             id="netixsol"
-            title="1. NetixSol"
+            title="1. Freelancer"
             subtitle="Associate Software Engineer"
-            date="April 2025 - PRESENT"
+            date="May 2025 - PRESENT"
             description={[
-              'As an Associate Software Engineer at NetixSol, I develop and maintain Web3 and blockchain applications with a focus on DeFi protocols and smart contract integrations. Working with modern frameworks like React, Next.js, and Node.js to create seamless user experiences for decentralized applications.',
+              'As an Associate Software Engineer, I develop and maintain Web3 and blockchain applications with a focus on DeFi protocols and smart contract integrations. Working with modern frameworks like React, Next.js, and Node.js to create seamless user experiences for decentralized applications.',
               'Collaborating closely with blockchain architects to implement complex smart contract functionality and ensure secure, efficient interactions between frontend interfaces and on-chain logic. Contributing to the full development lifecycle from concept to deployment while maintaining scalable MERN stack applications.'
             ]}
             technologies={technologiesNetixSol}
@@ -148,12 +148,16 @@ const Experience = () => {
           {/* Codix Sol */}
           <ExperienceEntry
             id="codixsol"
-            title="2. Codix Sol"
-            subtitle="Web Developer"
-            date="July 2024 - April 2025"
+            title="2.  Ciklum"
+            subtitle="Blockchain Developer"
+            date="April 2021 - May 2025"
             description={[
-              'As a Full-Stack Developer at CodixSol, I developed robust web solutions using the MERN stack. Optimized enterprise application performance through modular architecture and reusable components, improving codebase efficiency. Delivered scalable solutions meeting strict deadlines while solving complex technical challenges.',
-              'Mentored junior developers in modern practices through knowledge-sharing initiatives. Led adoption of best practices for maintainable React/Node.js systems. Expertise includes REST APIs, secure authentication flows, and responsive UI design aligned with UX principles. Focused on delivering clean, maintainable code.'
+              '• Smart Contract Development: Developed, tested, and deployed secure smart contracts for various use cases, automating business processes and reducing reliance on intermediaries.',
+              '• Coin/Token Development: Led end-to-end development of cryptocurrencies, ensuring they were secure, compliant, and compatible with existing blockchain ecosystems.',
+              '• Crypto Wallet Development: Engineered secure cryptocurrency wallets with advanced features like multi-signature support and biometric authentication, enhancing user trust and accessibility.',
+              '• DEX Development: Developed decentralized (DEX) and centralized (CEX) exchange platforms featuring advanced trading functionalities, high liquidity, and cutting-edge security measures.',
+              '• DeFi Development: Designed and implemented decentralized finance (DeFi) applications, enabling functionalities such as lending, borrowing, staking, and yield farming.',
+              '• Website: https://ilink.dev/'
             ]}
             technologies={technologiesCodixsol}
           />
@@ -161,13 +165,18 @@ const Experience = () => {
           {/* Gamica Cloud */}
           <ExperienceEntry
             id="gamicacloud"
-            title="3. Gamica Cloud"
-            subtitle="Web Developer"
-            date="February 2024 - July 2024"
+            title="3.  SoftServe "
+            subtitle="Full-Stack Developer"
+            date="August 2018 - April 2021"
             description={[
-              'During my 6-month MERN stack internship at Gamica Cloud, I developed 5+ full-stack applications using React, Node.js, Express, and MongoDB, while collaborating with a team of developers to optimize workflows and reduce project delivery timelines by 15%.',
-              'Enhanced application performance by 20% through strategic debugging and code refinement, and accelerated load speeds for critical deliverables.',
-              'Under expert mentorship, I rapidly mastered HTML, CSS, JavaScript, and React, building scalable frontend and full-stack projects from scratch with a focus on clean architecture, database integration, and industry best practices.'
+              '• Spearheaded the creation of scalable web applications using cutting-edge JavaScript frameworks like React, and Next.js, ensuring a seamless and dynamic user experience.',
+              '• Designed and applied robust RESTful APIs and microservices with Node.js and Express.js, driving performance and scalability.',
+              '• Optimized front-end performance and ensured cross-device compatibility using HTML5, CSS3, and Bootstrap.',
+              '• Managed cloud infrastructure and CI/CD pipelines with AWS, and Docker, enhancing deployment efficiency and system reliability.',
+              '• Administered MongoDB, PostgreSQL, and MySQL databases, focusing on data integrity and high availability.',
+              '• Conducted code reviews and provided mentorship to junior developers, fostering a collaborative and innovative team environment.',
+              '• Worked closely with UX/UI designers and product managers to deliver user-centric solutions that align with business goals',
+              '• Website: https://tekmates.pro/'
             ]}
             technologies={technologiesGamicaCloud}
           />

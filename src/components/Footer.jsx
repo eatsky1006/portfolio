@@ -1,4 +1,4 @@
-import { Instagram } from '@mui/icons-material';
+import { Telegram } from '@mui/icons-material';
 import { WhatsApp } from '@mui/icons-material';
 import { GitHub } from '@mui/icons-material';
 import { Box, Container, IconButton, Typography } from '@mui/material';
@@ -16,11 +16,11 @@ const Footer = () => {
     },
     {
       label: 'GitHub',
-      href: 'https://github.com/ahmadgill7',
+      href: 'https://github.com/eatsky1013',
       icon: GitHub,
     },
-    { icon: Instagram, href: 'https://www.instagram.com/handsom.ware', label: 'Instagram' },
-    { icon: WhatsApp, href: 'https://wa.me/923089900772', label: 'Whatsapp' },
+    { icon: Telegram, href: 'https://t.me/Surf', label: 'Telegram' },
+    { icon: WhatsApp, href: 'https://wa.me/380501604137', label: 'Whatsapp' },
   ];
 
   return (
@@ -48,7 +48,7 @@ const Footer = () => {
               href={social.href}
               target="_blank"
               rel="noopener noreferrer"
-              aria-label={`Connect with Muhammad Ahmad on ${social.label}`}
+              aria-label={`Connect with Mikola Gubar on ${social.label}`}
               onMouseEnter={() => setHoveredIcon(index)}
               onMouseLeave={() => setHoveredIcon(null)}
               sx={{
@@ -66,7 +66,7 @@ const Footer = () => {
         </Box>
 
         <Typography variant="body2" sx={{ mt: 2, opacity: 0.7 }}>
-          &copy; {new Date().getFullYear()} Ahmad Gill
+          &copy; {new Date().getFullYear()} Mikola Gubar
         </Typography>
       </Box>
     </Container>

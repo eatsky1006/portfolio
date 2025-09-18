@@ -84,16 +84,7 @@ const Navbar = () => {
                         transform: 'scale(1.05)'
                     }
                 }}>
-                    <img
-                        src="/LogoWithName.png"
-                        alt="Portfolio logo"
-                        style={{
-                            display: { xs: 'none', md: 'block' },
-                            height: '80px',
-                            transition: 'filter 0.3s ease',
-                            filter: scrolled ? 'drop-shadow(0 0 5px rgba(156,131,255,0.5))' : 'none'
-                        }}
-                    />
+                    
                 </Box>
 
                 {/* Desktop Navigation */}
