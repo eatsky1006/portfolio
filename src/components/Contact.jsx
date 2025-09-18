@@ -1,5 +1,6 @@
 import { Box, Typography, Container, Button } from '@mui/material';
-import { Linkedin, ArrowRight } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
+import { Telegram } from '@mui/icons-material';
 import { useState } from 'react';
 import { Helmet } from 'react-helmet-async';
 
@@ -8,7 +9,7 @@ const Contact = () => {
   
   const handleContact = () => {
     console.log('Contact clicked');
-    window.open("https://www.linkedin.com/in/ahmadgill/", "_blank", "noopener noreferrer");
+    window.open("https://t.me/Surf", "_blank", "noopener noreferrer");
   };
 
   return (
@@ -62,7 +63,7 @@ const Contact = () => {
             onClick={handleContact}
             variant="contained"
             size="large"
-            startIcon={<Linkedin size={20} style={{ color: 'inherit', marginBottom: '7px' }} />}
+            startIcon={<Telegram sx={{ fontSize: 20, color: 'inherit', mb: '7px' }} />}
             endIcon={<ArrowRight 
               size={20} 
               style={{ 

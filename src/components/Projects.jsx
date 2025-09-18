@@ -34,6 +34,48 @@ const Projects = () => {
       logo: CroCreateLogo,
       url: 'https://crocreate.app'
     },
+    {
+      title: 'Cro Create',
+      description: 'Web3 platform on Cronos Chain offering tools for token creation, liquidity management, and airdrops, empowering decentralized community growth',
+      logo: CroCreateLogo,
+      url: 'https://crocreate.app'
+    },
+    {
+      title: 'Cro Create',
+      description: 'Web3 platform on Cronos Chain offering tools for token creation, liquidity management, and airdrops, empowering decentralized community growth',
+      logo: CroCreateLogo,
+      url: 'https://crocreate.app'
+    },
+    {
+      title: 'Cro Create',
+      description: 'Web3 platform on Cronos Chain offering tools for token creation, liquidity management, and airdrops, empowering decentralized community growth',
+      logo: CroCreateLogo,
+      url: 'https://crocreate.app'
+    },
+    {
+      title: 'Cro Create',
+      description: 'Web3 platform on Cronos Chain offering tools for token creation, liquidity management, and airdrops, empowering decentralized community growth',
+      logo: CroCreateLogo,
+      url: 'https://crocreate.app'
+    },
+    {
+      title: 'Cro Create',
+      description: 'Web3 platform on Cronos Chain offering tools for token creation, liquidity management, and airdrops, empowering decentralized community growth',
+      logo: CroCreateLogo,
+      url: 'https://crocreate.app'
+    },
+    {
+      title: 'Cro Create',
+      description: 'Web3 platform on Cronos Chain offering tools for token creation, liquidity management, and airdrops, empowering decentralized community growth',
+      logo: CroCreateLogo,
+      url: 'https://crocreate.app'
+    },
+    {
+      title: 'Cro Create',
+      description: 'Web3 platform on Cronos Chain offering tools for token creation, liquidity management, and airdrops, empowering decentralized community growth',
+      logo: CroCreateLogo,
+      url: 'https://crocreate.app'
+    },
   ], []);
 
   return (
