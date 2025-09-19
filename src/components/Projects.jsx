@@ -1,7 +1,12 @@
 import { Box, Typography, Container, Grid, Link, } from '@mui/material';
 import PopitLogo from "../assets/PopitLogoImage.png";
 import KaspaFinanceLogo from "../assets/KF_05.png";
-// import PerkSwapLogo from "../assets/PerkSwapLogo.svg";
+import kyloLogo from "../assets/kyloLogo.png";
+import pankitoLogo from "../assets/pankitoLogo.png";
+import moodaiLogo from "../assets/moodaiLogo.png";
+import publicmintLogo from "../assets/publicmintLogo.png";
+import yldlogo from "../assets/yldlogo.png"; 
+import Magmarlogo from "../assets/Magmarlogo.png";
 import CroCreateLogo from "../assets/CroCreate Full Rez.png";
 import { useMemo, useState } from 'react';
 import { Helmet } from 'react-helmet-async';
@@ -35,46 +40,46 @@ const Projects = () => {
       url: 'https://crocreate.app'
     },
     {
-      title: 'Cro Create',
-      description: 'Web3 platform on Cronos Chain offering tools for token creation, liquidity management, and airdrops, empowering decentralized community growth',
-      logo: CroCreateLogo,
-      url: 'https://crocreate.app'
+      title: 'kylothedoge',
+      description: 'KyloTheDoge is a funny crypto coin with a dog character named Kylo. It’s about memes, fun, and community.',
+      logo: kyloLogo,
+      url: 'https://www.kylothedoge.dog'
     },
     {
-      title: 'Cro Create',
-      description: 'Web3 platform on Cronos Chain offering tools for token creation, liquidity management, and airdrops, empowering decentralized community growth',
-      logo: CroCreateLogo,
-      url: 'https://crocreate.app'
+      title: 'pankito',
+      description: 'Pankito is a blockchain-based metaverse game that lets users play, mine rewards, and explore digital characters and lands, with a focus on sustainability and upcoming land launches.',
+      logo: pankitoLogo,
+      url: 'https://pankito.com/'
     },
     {
-      title: 'Cro Create',
-      description: 'Web3 platform on Cronos Chain offering tools for token creation, liquidity management, and airdrops, empowering decentralized community growth',
-      logo: CroCreateLogo,
-      url: 'https://crocreate.app'
+      title: 'mood',
+      description: 'Mood.ai is a platform that uses AI to help users create custom logo designs.',
+      logo: moodaiLogo,
+      url: 'https://www.mood.ai'
     },
     {
-      title: 'Cro Create',
+      title: 'publicmint',
       description: 'Web3 platform on Cronos Chain offering tools for token creation, liquidity management, and airdrops, empowering decentralized community growth',
-      logo: CroCreateLogo,
-      url: 'https://crocreate.app'
+      logo: publicmintLogo,
+      url: 'https://publicmint.com/'
     },
     {
-      title: 'Cro Create',
-      description: 'Web3 platform on Cronos Chain offering tools for token creation, liquidity management, and airdrops, empowering decentralized community growth',
-      logo: CroCreateLogo,
-      url: 'https://crocreate.app'
+      title: 'yld',
+      description: 'YLD.fun is a platform that offers fun crypto-related tools, rewards, and experiences for the Web3 community.',
+      logo: yldlogo,
+      url: 'https://yld.fun/'
     },
     {
-      title: 'Cro Create',
-      description: 'Web3 platform on Cronos Chain offering tools for token creation, liquidity management, and airdrops, empowering decentralized community growth',
-      logo: CroCreateLogo,
-      url: 'https://crocreate.app'
+      title: 'Magmar',
+      description: 'Magmar Infra is an infrastructure and construction company specializing in engineering, procurement, and project management services.',
+      logo: Magmarlogo,
+      url: 'https://www.magmarinfra.com'
     },
     {
-      title: 'Cro Create',
-      description: 'Web3 platform on Cronos Chain offering tools for token creation, liquidity management, and airdrops, empowering decentralized community growth',
-      logo: CroCreateLogo,
-      url: 'https://crocreate.app'
+      title: 'Auctus',
+      description: 'Auctus.org is a decentralized investment platform that helps users create and manage diversified portfolios using blockchain technology.',
+      logo: Auctuslogo,
+      url: 'https://auctus.org'
     },
   ], []);
 
