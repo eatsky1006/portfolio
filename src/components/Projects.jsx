@@ -8,6 +8,7 @@ import publicmintLogo from "../assets/publicmintLogo.png";
 import yldlogo from "../assets/yldlogo.png"; 
 import Magmarlogo from "../assets/Magmarlogo.png";
 import CroCreateLogo from "../assets/CroCreate Full Rez.png";
+import Auctuslogo from "../assets/Auctuslogo.png";
 import { useMemo, useState } from 'react';
 import { Helmet } from 'react-helmet-async';
 
