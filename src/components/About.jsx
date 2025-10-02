@@ -8,8 +8,8 @@ const About = () => {
   return (
     <>
       <Helmet>
-        <title>Mikola Gubar | Full-Stack & Blockchain Developer</title>
-        <meta name="description" content="Learn about Mikola Gubar, a versatile full-stack developer with expertise in both web development and blockchain technologies including React, Node.js, and Web3 solutions." />
+        <title>Karabach Anton | Full-Stack & Blockchain Developer</title>
+        <meta name="description" content="Learn about Karabach Anton, a versatile full-stack developer with expertise in both web development and blockchain technologies including React, Node.js, and Web3 solutions." />
       </Helmet>
       <Container id="about">
         <Box
@@ -71,7 +71,7 @@ const About = () => {
               transition: 'opacity 0.3s ease',
               opacity: isTextHovered ? 1 : 0.9
             }}>
-              I am <strong>Mikola Gubar</strong>, a <strong>Full-stack and Web3 developer</strong> specializing in <strong>React.js, Node.js, and blockchain technologies</strong>. With extensive experience in <strong>Solidity smart contracts and DeFi applications</strong>, I build seamless web experiences that bridge traditional and decentralized technologies.
+              I am <strong>Karabach Anton</strong>, a <strong>Full-stack and Web3 developer</strong> specializing in <strong>React.js, Node.js, and blockchain technologies</strong>. With extensive experience in <strong>Solidity smart contracts and DeFi applications</strong>, I build seamless web experiences that bridge traditional and decentralized technologies.
             </Typography>
             <Typography variant="body1" sx={{ 
               mb: 3,

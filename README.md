@@ -1,4 +1,4 @@
-# Mikola Gubar - Portfolio 🚀
+# Karabach Anton - Portfolio 🚀
 
 [![Live Demo](https://img.shields.io/badge/demo-live-brightgreen)](https://ahmadgill-portfolio.netlify.app/)
 
@@ -52,6 +52,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Contact 📬
 
 - Email: [ahmadgillwebdev@gmail.com](mailto:ahmadgillwebdev@gmail.com)
-- LinkedIn: [Mikola Gubar](https://www.linkedin.com/in/ahmadgill)
+- LinkedIn: [Karabach Anton](https://www.linkedin.com/in/ahmadgill)
 
 [![Contact Button](./src/assets/contact-button.png)](mailto:ahmadgillwebdev@gmail.comm)
