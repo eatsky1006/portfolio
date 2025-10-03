@@ -11,7 +11,7 @@ const Footer = () => {
   const socialLinks = [
     {
       label: 'LinkedIn',
-      href: 'https://www.linkedin.com/in/mikola',
+      href: 'https://www.linkedin.com/in/anton-karabach-696b2236b/',
       icon: Linkedin,
     },
     {
