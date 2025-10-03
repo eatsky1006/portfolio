@@ -1,6 +1,7 @@
 import { Box, Typography, Container, Grid, Link, } from '@mui/material';
 import PopitLogo from "../assets/PopitLogoImage.png";
 import KaspaFinanceLogo from "../assets/KF_05.png";
+import nearlogo from "../assets/nearlogo.png";
 import kyloLogo from "../assets/kyloLogo.png";
 import pankitoLogo from "../assets/pankitoLogo.png";
 import moodaiLogo from "../assets/moodaiLogo.png";
