@@ -23,10 +23,10 @@ const Projects = () => {
       url: 'https://app.kaspafinance.io'
     },
     {
-      title: 'Popit Game',
-      description: 'innovative blockchain-integrated game where users bet cryptocurrency to participate in real-time game-play.',
-      logo: PopitLogo,
-      url: 'https://devpopitv2.netlify.app/'
+      title: 'Near network',
+      description: 'NEAR is a carbon-neutral, high-performance blockchain platform designed for scalability, user-friendly decentralized applications, and interoperability across Web3 ecosystems. It empowers developers and communities with fast, low-cost transactions and a robust infrastructure for building decentralized apps, DAOs, and digital economies.',
+      logo: nearlogo,
+      url: 'https://www.near.org/'
     },
     // {
     //   title: 'PerkSwap',
