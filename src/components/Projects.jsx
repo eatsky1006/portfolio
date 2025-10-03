@@ -22,12 +22,12 @@ const Projects = () => {
       logo: KaspaFinanceLogo,
       url: 'https://app.kaspafinance.io'
     },
-    {
-      title: 'Near network',
-      description: 'NEAR is a carbon-neutral, high-performance blockchain platform designed for scalability, user-friendly decentralized applications, and interoperability across Web3 ecosystems. It empowers developers and communities with fast, low-cost transactions and a robust infrastructure for building decentralized apps, DAOs, and digital economies.',
-      logo: nearlogo,
-      url: 'https://www.near.org'
-    },
+    // {
+    //   title: 'Near network',
+    //   description: 'NEAR is a carbon-neutral, high-performance blockchain platform designed for scalability, user-friendly decentralized applications, and interoperability across Web3 ecosystems. It empowers developers and communities with fast, low-cost transactions and a robust infrastructure for building decentralized apps, DAOs, and digital economies.',
+    //   logo: nearlogo,
+    //   url: 'https://www.near.org'
+    // },
     // {
     //   title: 'PerkSwap',
     //   description: 'Cryptocurrency exchange platform offering streamlined buying/selling/swapping, mirroring major exchanges\' scale without traditional trading features',
