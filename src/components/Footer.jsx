@@ -1,4 +1,5 @@
 import { Telegram } from '@mui/icons-material';
+import { Discord } from '@mui/icons-material';
 import { WhatsApp } from '@mui/icons-material';
 import { GitHub } from '@mui/icons-material';
 import { Box, Container, IconButton, Typography } from '@mui/material';
@@ -20,6 +21,7 @@ const Footer = () => {
       icon: GitHub,
     },
     { icon: Telegram, href: 'https://t.me/Surf', label: 'Telegram' },
+    { icon: Discord, href: 'https://discord.gg/8Fg2yQtM', label: 'Discord' },
     { icon: WhatsApp, href: 'https://wa.me/380501604137', label: 'Whatsapp' },
   ];
 

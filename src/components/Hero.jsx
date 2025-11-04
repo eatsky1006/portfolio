@@ -121,7 +121,7 @@ const Hero = () => {
                   px: { xs: 2, md: 0 }
                 }}
               >
-                Hey there!  I'm Anton, a Senior Full Stack & Blockchain Developer,  with over 7 years of experience building high-performance web applications and decentralized solutions.
+                Hey there!  I'm Kaden, a Senior Full Stack & Blockchain Developer,  with over 7 years of experience building high-performance web applications and decentralized solutions.
                 <br /><br />
                 I specialize in bridging Web2 and Web3, crafting everything from scalable backend systems and interactive frontends to secure, gas-optimized smart contracts. My expertise spans React, Next.js, Node.js, Solidity, Web3.js, Ethers.js, PostgreSQL, AWS, and Docker.
                 <br /><br />
