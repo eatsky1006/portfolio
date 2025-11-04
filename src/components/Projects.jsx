@@ -88,8 +88,8 @@ const Projects = () => {
   return (
     <>
       <Helmet>
-        <title>Kaden Borer - Full-Stack & Blockchain Developer</title>
-        <meta name="description" content="Explore Kaden Borer's blockchain and web development projects including Popit Game, PerkSwap, and Cro Create - showcasing expertise in DeFi, smart contracts, and Web3 technologies." />
+        <title>kk Borer - Full-Stack & Blockchain Developer</title>
+        <meta name="description" content="Explore kk Borer's blockchain and web development projects including Popit Game, PerkSwap, and Cro Create - showcasing expertise in DeFi, smart contracts, and Web3 technologies." />
       </Helmet>
       <Container maxWidth="lg" id="projects">
         <Box
@@ -157,7 +157,7 @@ const Projects = () => {
                     component="img"
                     loading='lazy'
                     src={project.logo}
-                    alt={`${project.title} - Web3 Project by Kaden Borer`}
+                    alt={`${project.title} - Web3 Project by kk Borer`}
                     sx={{
                       width: 150,
                       maxWidth: '100%',

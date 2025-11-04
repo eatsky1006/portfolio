@@ -15,8 +15,8 @@ const Contact = () => {
   return (
     <>
       <Helmet>
-        <title>Kaden Borer | Full-Stack & Blockchain Developer</title>
-        <meta name="description" content="Get in touch with Kaden Borer, an Associate Software Engineer and Full-Stack & Web3 Developer specializing in blockchain technologies and web development." />
+        <title>kk Borer | Full-Stack & Blockchain Developer</title>
+        <meta name="description" content="Get in touch with kk Borer, an Associate Software Engineer and Full-Stack & Web3 Developer specializing in blockchain technologies and web development." />
       </Helmet>
       <Container maxWidth="lg" id="contact">
         <Box

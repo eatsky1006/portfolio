@@ -95,8 +95,8 @@ const Experience = () => {
   return (
     <>
       <Helmet>
-        <title>Kaden Borer - Full-Stack & Blockchain Developer</title>
-        <meta name="description" content="Kaden Borer's professional journey as a Full-Stack and Web3 Developer, with experience at NetixSol, Codix Sol and Gamica Cloud working on React, Node.js, and blockchain technologies." />
+        <title>kk Borer - Full-Stack & Blockchain Developer</title>
+        <meta name="description" content="kk Borer's professional journey as a Full-Stack and Web3 Developer, with experience at NetixSol, Codix Sol and Gamica Cloud working on React, Node.js, and blockchain technologies." />
       </Helmet>
       <Container maxWidth="lg" id="experience" sx={{ px: { xs: 2, md: 0 } }}>
         <Box
