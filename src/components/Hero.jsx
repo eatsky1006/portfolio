@@ -12,11 +12,11 @@ const Hero = () => {
   return (
     <>
       <Helmet>
-        <title>Karabach Anton | Associate Software Engineer | Full-Stack & Blockchain Developer</title>
-        <meta name="description" content="Karabach Anton is an Associate Software Engineer specializing in full-stack development and Web3 technologies including smart contracts, DeFi protocols, React.js, Node.js, and Solidity." />
-        <meta name="keywords" content="Karabach Anton, Associate Software Engineer, Web3 developer, Blockchain engineer, Smart contracts, DeFi, React developer, Full-stack developer, Solidity, Ethereum, dApps" />
-        <meta name="author" content="Karabach Anton" />
-        <meta property="og:title" content="Karabach Anton | Associate Software Engineer | Web3 Developer" />
+        <title>Kaden Borer | Associate Software Engineer | Full-Stack & Blockchain Developer</title>
+        <meta name="description" content="Kaden Borer is an Associate Software Engineer specializing in full-stack development and Web3 technologies including smart contracts, DeFi protocols, React.js, Node.js, and Solidity." />
+        <meta name="keywords" content="Kaden Borer, Associate Software Engineer, Web3 developer, Blockchain engineer, Smart contracts, DeFi, React developer, Full-stack developer, Solidity, Ethereum, dApps" />
+        <meta name="author" content="Kaden Borer" />
+        <meta property="og:title" content="Kaden Borer | Associate Software Engineer | Web3 Developer" />
         <meta property="og:description" content="Associate Software Engineer specializing in full-stack development and Web3 technologies" />
       </Helmet>
       <Container maxWidth="lg" id="home">
@@ -40,7 +40,7 @@ const Hero = () => {
                 component="img"
                 src={myProfile}
                 loading="lazy"
-                alt="Karabach Anton - Associate Software Engineer and Web3 Developer"
+                alt="Kaden Borer - Associate Software Engineer and Web3 Developer"
                 sx={{
                   width: { xs: 120, md: 150 },
                   height: { xs: 120, md: 150 },
@@ -59,7 +59,7 @@ const Hero = () => {
                   mb: 0  // Added margin-bottom 0
                 }}
               >
-                Karabach Anton
+                Kaden Borer
               </Typography>
 
               <Typography
