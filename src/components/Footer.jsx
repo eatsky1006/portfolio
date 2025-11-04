@@ -11,7 +11,7 @@ const Footer = () => {
   const socialLinks = [
     {
       label: 'LinkedIn',
-      href: 'https://www.linkedin.com/in/anton-karabach-696b2236b/',
+      // href: 'https://www.linkedin.com/in/anton-karabach-696b2236b/',
       icon: Linkedin,
     },
     {
@@ -20,7 +20,7 @@ const Footer = () => {
       icon: GitHub,
     },
     { icon: Telegram, href: 'https://t.me/eatsky', label: 'Telegram' },
-    { icon: WhatsApp, href: 'https://wa.me/380501604137', label: 'Whatsapp' },
+    // { icon: WhatsApp, href: 'https://wa.me/380501604137', label: 'Whatsapp' },
   ];
 
   return (
