@@ -148,7 +148,7 @@ const Experience = () => {
           {/* Codix Sol */}
           <ExperienceEntry
             id="codixsol"
-            title="2.  Ciklum"
+            title="2.  ChainVerse Labs"
             subtitle="Blockchain Developer"
             date="April 2021 - May 2025"
             description={[
@@ -165,7 +165,7 @@ const Experience = () => {
           {/* Gamica Cloud */}
           <ExperienceEntry
             id="gamicacloud"
-            title="3.  SoftServe "
+            title="3.  TechNova Pte Ltd "
             subtitle="Full-Stack Developer"
             date="August 2018 - April 2021"
             description={[
