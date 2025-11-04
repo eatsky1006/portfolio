@@ -48,7 +48,7 @@ const Footer = () => {
               href={social.href}
               target="_blank"
               rel="noopener noreferrer"
-              aria-label={`Connect with Karabach Anton on ${social.label}`}
+              aria-label={`Connect with Kaden Borer on ${social.label}`}
               onMouseEnter={() => setHoveredIcon(index)}
               onMouseLeave={() => setHoveredIcon(null)}
               sx={{
@@ -66,7 +66,7 @@ const Footer = () => {
         </Box>
 
         <Typography variant="body2" sx={{ mt: 2, opacity: 0.7 }}>
-          &copy; {new Date().getFullYear()} Karabach Anton
+          &copy; {new Date().getFullYear()} Kaden Borer
         </Typography>
       </Box>
     </Container>
