@@ -9,7 +9,7 @@ const Contact = () => {
   
   const handleContact = () => {
     console.log('Contact clicked');
-    window.open("https://t.me/eat", "_blank", "noopener noreferrer");
+    window.open("https://t.me/eatsky", "_blank", "noopener noreferrer");
   };
 
   return (

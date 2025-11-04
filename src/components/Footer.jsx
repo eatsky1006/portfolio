@@ -20,7 +20,7 @@ const Footer = () => {
       href: 'https://github.com/eatsky1013',
       icon: GitHub,
     },
-    { icon: Telegram, href: 'https://t.me/eat', label: 'Telegram' },
+    { icon: Telegram, href: 'https://t.me/eatsky', label: 'Telegram' },
     { icon: Discord, href: 'https://discord.gg/8Fg2yQtM', label: 'Discord' },
     { icon: WhatsApp, href: 'https://wa.me/380501604137', label: 'Whatsapp' },
   ];
