@@ -12,11 +12,11 @@ const Hero = () => {
   return (
     <>
       <Helmet>
-        <title>kk Borer | Associate Software Engineer | Full-Stack & Blockchain Developer</title>
-        <meta name="description" content="kk Borer is an Associate Software Engineer specializing in full-stack development and Web3 technologies including smart contracts, DeFi protocols, React.js, Node.js, and Solidity." />
-        <meta name="keywords" content="kk Borer, Associate Software Engineer, Web3 developer, Blockchain engineer, Smart contracts, DeFi, React developer, Full-stack developer, Solidity, Ethereum, dApps" />
-        <meta name="author" content="kk Borer" />
-        <meta property="og:title" content="kk Borer | Associate Software Engineer | Web3 Developer" />
+        <title>Kaden Borer | Associate Software Engineer | Full-Stack & Blockchain Developer</title>
+        <meta name="description" content="Kaden Borer is an Associate Software Engineer specializing in full-stack development and Web3 technologies including smart contracts, DeFi protocols, React.js, Node.js, and Solidity." />
+        <meta name="keywords" content="Kaden Borer, Associate Software Engineer, Web3 developer, Blockchain engineer, Smart contracts, DeFi, React developer, Full-stack developer, Solidity, Ethereum, dApps" />
+        <meta name="author" content="Kaden Borer" />
+        <meta property="og:title" content="Kaden Borer | Associate Software Engineer | Web3 Developer" />
         <meta property="og:description" content="Associate Software Engineer specializing in full-stack development and Web3 technologies" />
       </Helmet>
       <Container maxWidth="lg" id="home">
@@ -40,7 +40,7 @@ const Hero = () => {
                 component="img"
                 src={myProfile}
                 loading="lazy"
-                alt="kk Borer - Associate Software Engineer and Web3 Developer"
+                alt="Kaden Borer - Associate Software Engineer and Web3 Developer"
                 sx={{
                   width: { xs: 120, md: 150 },
                   height: { xs: 120, md: 150 },
@@ -59,7 +59,7 @@ const Hero = () => {
                   mb: 0  // Added margin-bottom 0
                 }}
               >
-                kk Borer
+                Kaden Borer
               </Typography>
 
               <Typography
@@ -121,7 +121,7 @@ const Hero = () => {
                   px: { xs: 2, md: 0 }
                 }}
               >
-                Hey there!  I'm kk, a Senior Full Stack & Blockchain Developer,  with over 7 years of experience building high-performance web applications and decentralized solutions.
+                Hey there!  I'm Kaden, a Senior Full Stack & Blockchain Developer,  with over 7 years of experience building high-performance web applications and decentralized solutions.
                 <br /><br />
                 I specialize in bridging Web2 and Web3, crafting everything from scalable backend systems and interactive frontends to secure, gas-optimized smart contracts. My expertise spans React, Next.js, Node.js, Solidity, Web3.js, Ethers.js, PostgreSQL, AWS, and Docker.
                 <br /><br />

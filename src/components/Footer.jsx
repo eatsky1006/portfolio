@@ -1,5 +1,4 @@
 import { Telegram } from '@mui/icons-material';
-import { Discord } from '@mui/icons-material';
 import { WhatsApp } from '@mui/icons-material';
 import { GitHub } from '@mui/icons-material';
 import { Box, Container, IconButton, Typography } from '@mui/material';
@@ -17,11 +16,10 @@ const Footer = () => {
     },
     {
       label: 'GitHub',
-      href: 'https://github.com/eatsky1013',
+      href: 'https://github.com/eatsky1006',
       icon: GitHub,
     },
     { icon: Telegram, href: 'https://t.me/eatsky', label: 'Telegram' },
-    { icon: Discord, href: 'https://discord.gg/8Fg2yQtM', label: 'Discord' },
     { icon: WhatsApp, href: 'https://wa.me/380501604137', label: 'Whatsapp' },
   ];
 
@@ -50,7 +48,7 @@ const Footer = () => {
               href={social.href}
               target="_blank"
               rel="noopener noreferrer"
-              aria-label={`Connect with kk Borer on ${social.label}`}
+              aria-label={`Connect with Kaden Borer on ${social.label}`}
               onMouseEnter={() => setHoveredIcon(index)}
               onMouseLeave={() => setHoveredIcon(null)}
               sx={{
@@ -68,7 +66,7 @@ const Footer = () => {
         </Box>
 
         <Typography variant="body2" sx={{ mt: 2, opacity: 0.7 }}>
-          &copy; {new Date().getFullYear()} kk Borer
+          &copy; {new Date().getFullYear()} Kaden Borer
         </Typography>
       </Box>
     </Container>
